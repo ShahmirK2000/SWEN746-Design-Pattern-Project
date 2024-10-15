@@ -1,7 +1,11 @@
+/*
+ * Shahmir Mahmud Khan
+ */
 package Factory;
 
 import java.util.Random;
 
+//This is a child class that implements the Scout type of character
 public class Scout extends Character {
 
     private Random rand = new Random();
@@ -10,6 +14,7 @@ public class Scout extends Character {
         super(name, CharacterType.Scout, 150);
     }
 
+    //Implementing the dealdamage method from the interface
     @Override
     public void dealDamage(Character target) {
         double damage = 30;
@@ -22,6 +27,7 @@ public class Scout extends Character {
         target.takeDamage(damage);
     }
 
+    //Special method only available to the scout, because this character type is nimble
     @Override
     public boolean dodge(Character attacker) {
         int chance = rand.nextInt(100);

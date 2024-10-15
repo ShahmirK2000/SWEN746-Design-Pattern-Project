@@ -1,11 +1,16 @@
+/*
+ * Shahmir Mahmud Khan
+ */
 package Factory;
-
+//This is the abstract character class, that doesn't fully implement the character interface
+//The child classes will fully implement the interface, and inherit these methods.
 public abstract class Character implements CharacterInterface {
     
     String name;
     CharacterType cType;
     double Health;
 
+    //Simple constructor
     public Character(String name, CharacterType cType, double Health) {
         this.name = name;
         this.cType = cType;
@@ -33,6 +38,7 @@ public abstract class Character implements CharacterInterface {
         return cType;
     }
 
+    //Getter that returns the health of a character, however if it falls below 0 due to an attack, it just returns 0
     public double getHealth() {
         if(this.Health < 0) {
             this.Health = 0;
@@ -44,10 +50,12 @@ public abstract class Character implements CharacterInterface {
         Health = health;
     }
 
+    //Helper function that returns if a character is still alive or not
     public boolean isAlive() {
         return this.Health > 0;
     }
 
+    //Simple toString that prints out the character enum type and the health of the character
     @Override
     public String toString() {
         return name + " is a " + this.getcType() + " and has " + Health + " health";

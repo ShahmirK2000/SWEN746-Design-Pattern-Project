@@ -6,6 +6,7 @@ package Factory;
 
 public interface CharacterInterface {
     //This interface will be implemented by different characters in the game
+    //The enum determines which type of character will be implemented by the child classes
     public enum CharacterType {
         Warrior,
         Scout,

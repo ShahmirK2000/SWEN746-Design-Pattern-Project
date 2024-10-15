@@ -2,7 +2,8 @@
  * Shahmir Mahmud Khan
  */
 package Factory;
-
+//This class is an arena where the characters fight, basically just a for loop that checks to see if a character has died or not
+//Handles the dodging/healing or any other special property that a child-character class has
 public class Arena {
     public void Fight(Character c1, Character c2) {
         while(c1.isAlive() && c2.isAlive()) {
