@@ -1,7 +1,7 @@
 /*
  * Shahmir Mahmud Khan
  */
-package AbstractFactory;
+package Factory;
 
 public class Arena {
     public void Fight(Character c1, Character c2) {

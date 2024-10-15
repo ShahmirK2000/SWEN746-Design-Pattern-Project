@@ -3,7 +3,7 @@
  * This class shows how we can use the factories within this design
  */
 
-package AbstractFactory;
+package Factory;
 
 import java.util.Random;
 
@@ -23,16 +23,16 @@ public class Battle {
 
         switch(type) {
             case 0:
-                c1 = wf.createWarrior("Iron Man");
+                c1 = wf.createCharacter("Iron Man");
                 break;
             case 1:
-                c1 = sf.createScout("Iron Man");
+                c1 = sf.createCharacter("Iron Man");
                 break;
             case 2:
-                c1 = hf.createHealer("Iron Man");
+                c1 = hf.createCharacter("Iron Man");
                 break;
             case 3:
-                c1 = gf.createGiant("Iron Man");
+                c1 = gf.createCharacter("Iron Man");
                 break;
             default:
                 c1 = null;
@@ -43,16 +43,16 @@ public class Battle {
 
         switch(type) {
             case 0:
-                c2 = wf.createWarrior("Iron Man");
+                c2 = wf.createCharacter("Captain America");
                 break;
             case 1:
-                c2 = sf.createScout("Iron Man");
+                c2 = sf.createCharacter("Captain America");
                 break;
             case 2:
-                c2 = hf.createHealer("Iron Man");
+                c2 = hf.createCharacter("Captain America");
                 break;
             case 3:
-                c2 = gf.createGiant("Iron Man");
+                c2 = gf.createCharacter("Captain America");
                 break;
             default:
                 c2 = null;

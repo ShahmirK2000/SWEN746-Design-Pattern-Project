@@ -1,4 +1,4 @@
-package AbstractFactory;
+package Factory;
 
 public class Warrior extends Character {
 

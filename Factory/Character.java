@@ -1,4 +1,4 @@
-package AbstractFactory;
+package Factory;
 
 public abstract class Character implements CharacterInterface {
     

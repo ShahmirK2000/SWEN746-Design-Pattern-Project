@@ -2,7 +2,7 @@
  * Shahmir Mahmud Khan
  */
 
-package AbstractFactory;
+package Factory;
 
 public interface CharacterInterface {
     //This interface will be implemented by different characters in the game

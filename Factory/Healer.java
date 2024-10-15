@@ -1,4 +1,4 @@
-package AbstractFactory;
+package Factory;
 
 public class Healer extends Character {
     private int turnsSinceLastHeal;
@@ -18,7 +18,7 @@ public class Healer extends Character {
     public void heal() {
         if(turnsSinceLastHeal >= 2) {
             this.setHealth(Health + 30);
-            System.out.println(name + " Healed for 30 health");
+            System.out.println(name + " Healed for 30 health, and now has " + this.getHealth());
             turnsSinceLastHeal = 0;
         }
     }
