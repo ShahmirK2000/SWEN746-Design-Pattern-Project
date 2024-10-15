@@ -6,3 +6,9 @@ The first design pattern I chose to implement is the factory design pattern. Its
 
 ![SWEN746 Design Patterns-Page-1 drawio](https://github.com/user-attachments/assets/43caf0a2-be94-4a86-9de9-9a08f07a891a)
 
+## Strategy Design Pattern
+The second design pattern I chose to implement is the strategy design pattern. Its goal is to allow the designer to define a family of algorithms and put them into their own separate class, which makes their objects interchangeable. I used this design pattern to create a simple shopping interface that allows the user to pick which payment option (strategy) they would like to use. 
+
+![SWEN746 Strategy Design Pattern drawio](https://github.com/user-attachments/assets/20df9c22-d663-452d-a11c-e6fd554b47a8)
+
+
