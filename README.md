@@ -12,6 +12,6 @@ The second design pattern I chose to implement is the strategy design pattern. I
 ![SWEN746 Strategy Design Pattern drawio (1)](https://github.com/user-attachments/assets/c650f976-7beb-408d-8f38-dbd78c21cae8)
 
 ## Requirements Diagram
-This shows the specific requirements needed to implement one of my design patterns. I chose to implement a requirements diagram for the strategy design pattern. It shows the actual requirements of all functioning parts of the program and the relationships between requirements.
+This shows the specific requirements needed to implement one of my design patterns. I chose to implement a requirements diagram for the strategy design pattern. It shows the actual requirements of all functioning parts of the program and the relationships between requirements. The point of this implementation of the strategy design pattern was to show how different strategies can be implemented by using abstraction. This project specifically shows how different payment methods can be implemented by using one interface. Creating a relationship between the cart and the interface allows the client to choose which payment strategy to use easily.
 
 ![SWEN746 Requirements Diagram](https://github.com/user-attachments/assets/5ae400ae-6509-405a-a95a-415dfed7aaa5)
