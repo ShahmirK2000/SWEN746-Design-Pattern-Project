@@ -10,3 +10,8 @@ The first design pattern I chose to implement is the factory design pattern. Its
 The second design pattern I chose to implement is the strategy design pattern. Its goal is to allow the designer to define a family of algorithms and put them into their own separate class, which makes their objects interchangeable. I used this design pattern to create a simple shopping interface that allows the user to pick which payment option (strategy) they would like to use. 
 
 ![SWEN746 Strategy Design Pattern drawio (1)](https://github.com/user-attachments/assets/c650f976-7beb-408d-8f38-dbd78c21cae8)
+
+## Requirements Diagram
+This shows the specific requirements needed to implement one of my design patterns. I chose to implement a requirements diagram for the strategy design pattern. It shows the actual requirements of all functioning parts of the program and the relationships between requirements.
+
+![SWEN746 Requirements Diagram](https://github.com/user-attachments/assets/5ae400ae-6509-405a-a95a-415dfed7aaa5)
